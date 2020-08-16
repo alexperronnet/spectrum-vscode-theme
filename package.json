@@ -1,0 +1,40 @@
+{
+  "name"       : "spectrum-vscode-theme",
+  "displayName": "Spectrum Theme",
+  "icon"       : "./static/icon.png",
+  "version"    : "0.1.0",
+  "license"    : "MIT",
+  "preview"    : true,
+  "publisher"  : "alexperronnet",
+  "author"     : "Alex Perronnet <alex@alexperronnet.io> (https://alexperronnet.io)",
+  "description": "Spectrum theme, a clean and juicy dark theme for VS Code",
+  "engines"    : {
+    "vscode": "^1.48.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "spectrum",
+    "vscode",
+    "themes",
+    "light",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label"  : "Spectrum",
+        "uiTheme": "vs-dark",
+        "path"   : "./themes/dark.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/alexperronnet/spectrum-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/alexperronnet/spectrum-vscode-theme/issues"
+  }
+}
