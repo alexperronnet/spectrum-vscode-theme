@@ -25,4 +25,4 @@ To quickly test something, you can also override this (or any other) theme in yo
 
 ## License
 
-Under [MIT](https://github.com/alexperronnet/spectrum-vscode-theme/blob/master/LICENSE.md)
+Under [MIT](https://github.com/alexperronnet/spectrum-vscode-theme/blob/master/LICENSE)
