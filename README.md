@@ -4,7 +4,7 @@
 
 ## Install
 
-1. Go to [VS Marketplace]()
+1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=alexperronnet.spectrum-vscode-theme)
 2. Click on the `install` button
 
 ## Override this theme
