@@ -1,7 +1,7 @@
 {
   "name"       : "spectrum-vscode-theme",
   "displayName": "Spectrum Theme",
-  "icon"       : "./static/icon.png",
+  "icon"       : "icon.png",
   "version"    : "0.1.0",
   "license"    : "MIT",
   "preview"    : true,
