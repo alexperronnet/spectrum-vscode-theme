@@ -1,3 +1,7 @@
+# 0.3.0
+
+- Publishing on vs marketplace
+
 ## 0.2.0
 
 - New icon.png
