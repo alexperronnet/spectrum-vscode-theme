@@ -1,7 +1,5 @@
 # Spectrum VS Code theme
 
-![Spectrum VS Code theme](https://raw.githubusercontent.com/alexperronnet/spectrum-vscode-theme/master/static/spectrum-theme-preview.png)
-
 ## Install
 
 1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=alexperronnet.spectrum-vscode-theme)
