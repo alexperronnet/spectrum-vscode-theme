@@ -10,7 +10,6 @@ function getTheme({ style, name, type }) {
   const pick = options => options[style]
 
   return {
-    $schema: "vscode://schemas/color-theme",
     semacnticHighlighting: true,
     name: name,
     type: type,
@@ -20,11 +19,11 @@ function getTheme({ style, name, type }) {
         dark: colors.blue[600]
       }),
       foreground: pick({
-        light: colors.blueGrey[700],
-        dark: colors.blueGrey[300]
+        light: colors.grey[700],
+        dark: colors.blueGrey[200]
       }),
       descriptionForeground: pick({
-        light: colors.blueGrey[500],
+        light: colors.grey[500],
         dark: colors.blueGrey[400]
       }),
       errorForeground: pick({
@@ -33,30 +32,30 @@ function getTheme({ style, name, type }) {
       }),
       "textLink.foreground": pick({
         light: colors.blue[500],
-        dark: colors.blue[300]
+        dark: colors.blue[400]
       }),
       "textLink.activeForeground": pick({
         light: colors.blue[600],
         dark: colors.blue[200]
       }),
       "textBlockQuote.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: colors.blueGrey[900]
       }),
       "textBlockQuote.border": pick({
-        light: colors.blueGrey[200],
+        light: colors.grey[200],
         dark: colors.blueGrey[700]
       }),
       "textCodeBlock.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: colors.blueGrey[800]
       }),
       "textPreformat.foreground": pick({
-        light: colors.blueGrey[600],
-        dark: colors.blueGrey[300]
+        light: colors.grey[600],
+        dark: colors.blueGrey[200]
       }),
       "textSeparator.foreground": pick({
-        light: colors.blueGrey[300],
+        light: colors.grey[300],
         dark: colors.blueGrey[600]
       }),
       "button.background": pick({
@@ -72,43 +71,43 @@ function getTheme({ style, name, type }) {
         dark: colors.teal[600]
       }),
       "checkbox.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: colors.blueGrey[700]
       }),
       "checkbox.border": pick({
-        light: colors.blueGrey[300],
-        dark: colors.common.black
+        light: colors.grey[300],
+        dark: colors.grey[900]
       }),
       "dropdown.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: colors.blueGrey[800]
       }),
       "dropdown.border": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "dropdown.foreground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "dropdown.listBackground": pick({
         light: colors.common.white,
         dark: colors.blueGrey[900]
       }),
       "input.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: colors.blueGrey[800]
       }),
       "input.border": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "input.foreground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "input.placeholderForeground": pick({
-        light: colors.blueGrey[400],
+        light: colors.grey[400],
         dark: colors.blueGrey[400]
       }),
       "badge.foreground": pick({
@@ -124,31 +123,31 @@ function getTheme({ style, name, type }) {
         dark: colors.blue[500]
       }),
       "titleBar.activeForeground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "titleBar.activeBackground": pick({
         light: colors.common.white,
         dark: colors.blueGrey[900]
       }),
       "titleBar.inactiveForeground": pick({
-        light: colors.blueGrey[500],
+        light: colors.grey[500],
         dark: colors.blueGrey[400]
       }),
       "titleBar.inactiveBackground": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: "#222d32"
       }),
       "titleBar.border": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "activityBar.foreground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "activityBar.inactiveForeground": pick({
-        light: colors.blueGrey[400],
+        light: colors.grey[400],
         dark: colors.blueGrey[500]
       }),
       "activityBar.background": pick({
@@ -168,48 +167,48 @@ function getTheme({ style, name, type }) {
         dark: colors.teal[300]
       }),
       "activityBar.border": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "sideBar.foreground": pick({
-        light: colors.blueGrey[600],
-        dark: colors.blueGrey[300]
+        light: colors.grey[600],
+        dark: colors.blueGrey[200]
       }),
       "sideBar.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: "#222d32"
       }),
       "sideBar.border": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "sideBarTitle.foreground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "sideBarSectionHeader.foreground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "sideBarSectionHeader.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: "#222d32"
       }),
       "sideBarSectionHeader.border": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "list.hoverForeground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "list.inactiveSelectionForeground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "list.activeSelectionForeground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "list.hoverBackground": pick({
         light: "#ebf0f4",
@@ -232,28 +231,28 @@ function getTheme({ style, name, type }) {
         dark: colors.blue[700]
       }),
       "tree.indentGuidesStroke": pick({
-        light: colors.blueGrey[200],
+        light: colors.grey[200],
         dark: colors.blueGrey[800]
       }),
       "notificationCenterHeader.foreground": pick({
-        light: colors.blueGrey[500],
+        light: colors.grey[500],
         dark: colors.blueGrey[400]
       }),
       "notificationCenterHeader.background": pick({
-        light: colors.blueGrey[200],
+        light: colors.grey[200],
         dark: colors.blueGrey[900]
       }),
       "notifications.foreground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "notifications.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: colors.blueGrey[800]
       }),
       "notifications.border": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "notificationsErrorIcon.foreground": pick({
         light: colors.red[500],
@@ -265,35 +264,35 @@ function getTheme({ style, name, type }) {
       }),
       "notificationsInfoIcon.foreground": pick({
         light: colors.blue[600],
-        dark: colors.blue[300]
+        dark: colors.blue[400]
       }),
       "pickerGroup.border": pick({
-        light: colors.blueGrey[200],
+        light: colors.grey[200],
         dark: colors.blueGrey[700]
       }),
       "pickerGroup.foreground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "quickInput.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: colors.blueGrey[900]
       }),
       "quickInput.foreground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "statusBar.foreground": pick({
-        light: colors.blueGrey[600],
-        dark: colors.blueGrey[300]
+        light: colors.grey[600],
+        dark: colors.blueGrey[200]
       }),
       "statusBar.background": pick({
         light: colors.common.white,
         dark: colors.blueGrey[900]
       }),
       "statusBar.border": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "statusBar.noFolderBackground": pick({
         light: colors.common.white,
@@ -312,27 +311,27 @@ function getTheme({ style, name, type }) {
         dark: "#282e34"
       }),
       "editorGroupHeader.tabsBackground": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: "#222d32"
       }),
       "editorGroupHeader.tabsBorder": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "editorGroup.border": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "tab.activeForeground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "tab.inactiveForeground": pick({
-        light: colors.blueGrey[500],
+        light: colors.grey[500],
         dark: colors.blueGrey[400]
       }),
       "tab.inactiveBackground": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: "#222d32"
       }),
       "tab.activeBackground": pick({
@@ -348,12 +347,12 @@ function getTheme({ style, name, type }) {
         dark: colors.blueGrey[900]
       }),
       "tab.border": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "tab.unfocusedActiveBorderTop": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "tab.activeBorder": pick({
         light: colors.common.white,
@@ -368,39 +367,39 @@ function getTheme({ style, name, type }) {
         dark: colors.teal[300]
       }),
       "breadcrumb.foreground": pick({
-        light: colors.blueGrey[500],
+        light: colors.grey[500],
         dark: colors.blueGrey[400]
       }),
       "breadcrumb.focusForeground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "breadcrumb.activeSelectionForeground": pick({
-        light: colors.blueGrey[600],
-        dark: colors.blueGrey[300]
+        light: colors.grey[600],
+        dark: colors.blueGrey[200]
       }),
       "breadcrumbPicker.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: "#2b3036"
       }),
       "editor.foreground": pick({
-        light: colors.blueGrey[900],
-        dark: colors.blueGrey[100]
+        light: colors.grey[900],
+        dark: colors.blueGrey[50]
       }),
       "editor.background": pick({
         light: colors.common.white,
         dark: colors.blueGrey[900]
       }),
       "editorWidget.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: "#222d32"
       }),
       "editor.foldBackground": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: "#282e33"
       }),
       "editor.lineHighlightBackground": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: "#2b3036"
       }),
       "editorLineNumber.foreground": pick({
@@ -408,8 +407,8 @@ function getTheme({ style, name, type }) {
         dark: colors.blueGrey[700]
       }),
       "editorLineNumber.activeForeground": pick({
-        light: colors.blueGrey[900],
-        dark: colors.blueGrey[100]
+        light: colors.grey[900],
+        dark: colors.blueGrey[50]
       }),
       "editorIndentGuide.background": pick({
         light: "#eff2f6",
@@ -420,7 +419,7 @@ function getTheme({ style, name, type }) {
         dark: colors.blueGrey[800]
       }),
       "editorWhitespace.foreground": pick({
-        light: colors.blueGrey[300],
+        light: colors.grey[300],
         dark: colors.blueGrey[700]
       }),
       "editorCursor.foreground": pick({
@@ -513,35 +512,35 @@ function getTheme({ style, name, type }) {
       }),
       "editorOverviewRuler.border": pick({
         light: colors.common.white,
-        dark: colors.common.black
+        dark: colors.grey[900]
       }),
       "panel.background": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: "#222d32"
       }),
       "panel.border": pick({
-        light: colors.blueGrey[200],
-        dark: colors.common.black
+        light: colors.grey[200],
+        dark: colors.grey[900]
       }),
       "panelTitle.activeBorder": pick({
         light: colors.deepOrange[400],
         dark: colors.teal[300]
       }),
       "panelTitle.activeForeground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "panelTitle.inactiveForeground": pick({
-        light: colors.blueGrey[500],
+        light: colors.grey[500],
         dark: colors.blueGrey[400]
       }),
       "panelInput.border": pick({
-        light: colors.blueGrey[200],
+        light: colors.grey[200],
         dark: colors.blueGrey[800]
       }),
       "terminal.foreground": pick({
-        light: colors.blueGrey[600],
-        dark: colors.blueGrey[300]
+        light: colors.grey[600],
+        dark: colors.blueGrey[200]
       }),
       "gitDecoration.addedResourceForeground": pick({
         light: colors.green[500],
@@ -549,7 +548,7 @@ function getTheme({ style, name, type }) {
       }),
       "gitDecoration.modifiedResourceForeground": pick({
         light: colors.blue[600],
-        dark: colors.blue[300]
+        dark: colors.blue[400]
       }),
       "gitDecoration.deletedResourceForeground": pick({
         light: colors.red[500],
@@ -560,7 +559,7 @@ function getTheme({ style, name, type }) {
         dark: colors.teal[400]
       }),
       "gitDecoration.ignoredResourceForeground": pick({
-        light: colors.blueGrey[400],
+        light: colors.grey[400],
         dark: colors.blueGrey[500]
       }),
       "gitDecoration.conflictingResourceForeground": pick({
@@ -568,7 +567,7 @@ function getTheme({ style, name, type }) {
         dark: colors.orange[300]
       }),
       "gitDecoration.submoduleResourceForeground": pick({
-        light: colors.blueGrey[400],
+        light: colors.grey[400],
         dark: colors.blueGrey[500]
       }),
       "debugToolBar.background": pick({
@@ -596,19 +595,19 @@ function getTheme({ style, name, type }) {
         dark: "#222d32"
       }),
       "settings.headerForeground": pick({
-        light: colors.blueGrey[800],
-        dark: colors.blueGrey[100]
+        light: colors.grey[800],
+        dark: colors.blueGrey[50]
       }),
       "settings.modifiedItemIndicator": pick({
         light: colors.blue[400],
         dark: colors.blue[500]
       }),
       "welcomePage.buttonBackground": pick({
-        light: colors.blueGrey[50],
+        light: colors.grey[100],
         dark: colors.blueGrey[800]
       }),
       "welcomePage.buttonHoverBackground": pick({
-        light: colors.blueGrey[200],
+        light: colors.grey[200],
         dark: colors.blueGrey[700]
       })
     },
@@ -617,7 +616,7 @@ function getTheme({ style, name, type }) {
         scope: ["comment", "punctuation.definition.comment", "string.comment"],
         settings: {
           foreground: pick({
-            light: colors.blueGrey[500],
+            light: colors.grey[500],
             dark: colors.blueGrey[500]
           })
         }
@@ -632,7 +631,7 @@ function getTheme({ style, name, type }) {
         settings: {
           foreground: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -649,8 +648,8 @@ function getTheme({ style, name, type }) {
         scope: "variable.parameter.function",
         settings: {
           foreground: pick({
-            light: colors.blueGrey[900],
-            dark: colors.blueGrey[100]
+            light: colors.grey[900],
+            dark: colors.blueGrey[50]
           })
         }
       },
@@ -689,8 +688,8 @@ function getTheme({ style, name, type }) {
         ],
         settings: {
           foreground: pick({
-            light: colors.blueGrey[900],
-            dark: colors.blueGrey[100]
+            light: colors.grey[900],
+            dark: colors.blueGrey[50]
           })
         }
       },
@@ -703,7 +702,7 @@ function getTheme({ style, name, type }) {
         settings: {
           foreground: pick({
             light: colors.blue[800],
-            dark: "#9ecbff"
+            dark: colors.blue[200]
           })
         }
       },
@@ -712,7 +711,7 @@ function getTheme({ style, name, type }) {
         settings: {
           foreground: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -721,7 +720,7 @@ function getTheme({ style, name, type }) {
         settings: {
           foreground: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -738,8 +737,8 @@ function getTheme({ style, name, type }) {
         scope: "variable.other",
         settings: {
           foreground: pick({
-            light: colors.blueGrey[900],
-            dark: colors.blueGrey[100]
+            light: colors.grey[900],
+            dark: colors.blueGrey[50]
           })
         }
       },
@@ -792,7 +791,7 @@ function getTheme({ style, name, type }) {
             dark: colors.pink[300]
           }),
           foreground: pick({
-            light: colors.blueGrey[50],
+            light: colors.grey[100],
             dark: colors.blueGrey[900]
           }),
           content: "^M"
@@ -811,8 +810,8 @@ function getTheme({ style, name, type }) {
         scope: "string source",
         settings: {
           foreground: pick({
-            light: colors.blueGrey[900],
-            dark: colors.blueGrey[100]
+            light: colors.grey[900],
+            dark: colors.blueGrey[50]
           })
         }
       },
@@ -863,7 +862,7 @@ function getTheme({ style, name, type }) {
         settings: {
           foreground: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -872,7 +871,7 @@ function getTheme({ style, name, type }) {
         settings: {
           foreground: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -881,7 +880,7 @@ function getTheme({ style, name, type }) {
         settings: {
           foreground: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -900,7 +899,7 @@ function getTheme({ style, name, type }) {
           fontStyle: "bold",
           foreground: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -918,8 +917,8 @@ function getTheme({ style, name, type }) {
         settings: {
           fontStyle: "italic",
           foreground: pick({
-            light: colors.blueGrey[900],
-            dark: colors.blueGrey[100]
+            light: colors.grey[900],
+            dark: colors.blueGrey[50]
           })
         }
       },
@@ -928,8 +927,8 @@ function getTheme({ style, name, type }) {
         settings: {
           fontStyle: "bold",
           foreground: pick({
-            light: colors.blueGrey[900],
-            dark: colors.blueGrey[100]
+            light: colors.grey[900],
+            dark: colors.blueGrey[50]
           })
         }
       },
@@ -938,7 +937,7 @@ function getTheme({ style, name, type }) {
         settings: {
           foreground: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -993,12 +992,12 @@ function getTheme({ style, name, type }) {
         scope: ["markup.ignored", "markup.untracked"],
         settings: {
           foreground: pick({
-            light: colors.blueGrey[50],
+            light: colors.grey[100],
             dark: colors.blueGrey[800]
           }),
           background: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -1017,7 +1016,7 @@ function getTheme({ style, name, type }) {
         settings: {
           foreground: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -1027,7 +1026,7 @@ function getTheme({ style, name, type }) {
           fontStyle: "bold",
           foreground: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -1036,7 +1035,7 @@ function getTheme({ style, name, type }) {
         settings: {
           foreground: pick({
             light: colors.blue[600],
-            dark: colors.blue[300]
+            dark: colors.blue[400]
           })
         }
       },
@@ -1051,8 +1050,8 @@ function getTheme({ style, name, type }) {
         ],
         settings: {
           foreground: pick({
-            light: colors.blueGrey[600],
-            dark: colors.blueGrey[300]
+            light: colors.grey[600],
+            dark: colors.blueGrey[200]
           })
         }
       },

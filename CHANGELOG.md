@@ -1,3 +1,7 @@
+# 0.5.3
+
+- Colors contrast adjustment
+
 # 0.5.0
 
 - Now 2 themes available: **light** and **dark**

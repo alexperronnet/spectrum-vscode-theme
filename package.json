@@ -2,7 +2,7 @@
   "name": "spectrum-vscode-theme",
   "displayName": "Spectrum Theme",
   "icon": "icon.png",
-  "version": "0.5.0",
+  "version": "0.5.3",
   "license": "MIT",
   "preview": true,
   "publisher": "alexperronnet",
