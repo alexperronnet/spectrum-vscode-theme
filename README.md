@@ -5,9 +5,17 @@
 1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=alexperronnet.spectrum-vscode-theme)
 2. Click on the `install` button
 
+
+
 ## Override this theme
 
 To quickly test something, you can also override this (or any other) theme in your personal config file. Please follow the guide in the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
+
+## Links
+
+- [List of all themable colors](https://gist.github.com/alexperronnet/a2339cef2dd4f69ad2deaa6af5b38539)
+- [Theme color reference](https://github.com/Microsoft/vscode-docs/blob/master/api/references/theme-color.md)
+- [Color palette reference](https://material-ui.com/customization/color/#color-palette)
 
 ## Contribute
 
@@ -25,4 +33,4 @@ To quickly test something, you can also override this (or any other) theme in yo
 
 ## License
 
-Under [MIT](https://github.com/alexperronnet/spectrum-vscode-theme/blob/master/LICENSE)
+Under [MIT](https://github.com/alexperronnet/spectrum-vscode-theme/blob/master/license.md)

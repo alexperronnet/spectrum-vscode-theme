@@ -2,12 +2,12 @@
   "name": "spectrum-vscode-theme",
   "displayName": "Spectrum Theme",
   "icon": "icon.png",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "license": "MIT",
   "preview": true,
   "publisher": "alexperronnet",
   "author": "Alex Perronnet <alex@alexperronnet.io> (https://alexperronnet.io)",
-  "description": "Spectrum theme, a clean and juicy dark theme for VS Code. Fully based on Tailwindcss V2 colors",
+  "description": "Spectrum theme, a clean and juicy dark theme for VS Code.",
   "engines": {
     "vscode": "^1.52.0"
   },
@@ -24,9 +24,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Spectrum",
+        "label": "Spectrum Light",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
+      },
+      {
+        "label": "Spectrum Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/spectrum.json"
+        "path": "./themes/dark.json"
       }
     ]
   },
@@ -43,8 +48,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
   "devDependencies": {
+    "@material-ui/core": "^4.11.2",
     "nodemon": "^2.0.6",
-    "prettier": "^2.2.1",
-    "tailwindcss": "^2.0.2"
+    "prettier": "^2.2.1"
   }
 }
